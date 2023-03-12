@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../bs5-trial-collab/responsive/roxasma"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "roxasma_ws"
+	}
+}

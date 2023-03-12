@@ -40,7 +40,8 @@ img {
   width: 100px;
   padding-top: 20px;
   cursor: pointer;
-  @media screen and;
+
+  @media screen and
   {
    width: 80% !important; 
  }
@@ -104,8 +105,8 @@ img {
 { 
   margin-bottom: 5% !important;
   /* width: 100%; */
-  min-width: 50px;  // add this if you want
-  max-width: 300px; // add this if  you want, adjust accordingly
+  min-width: 50px;  
+  max-width: 300px; 
  @media only screen and (min-width:321px) and (max-width:480px) { }
 }
 
@@ -115,8 +116,8 @@ img {
 
 #LogoBtn{ 
   width: 100%;
-   min-width: 50px;  // add this if you want
-   max-width: 300px; // add this if  you want, adjust accordingly
+   min-width: 50px;  
+   max-width: 300px; 
   @media only screen and (min-width:321px) and (max-width:480px) { }
 }
 
