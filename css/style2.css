@@ -1,7 +1,8 @@
 body {
   background-color: inherit;
   overflow: auto;
-  background-image: url("/MP1/css/images/Bg_tattoo.jpg");
+  background-color: gray;
+  /* background-image: url("/css/images/Bg_tattoo.jpg"); */
   @media screen and (max-width: 575px) {
     main {
         width: 80%;
@@ -40,7 +41,7 @@ img {
   width: 100px;
   padding-top: 20px;
   cursor: pointer;
-  @media screen and;
+  @media screen and
   {
    width: 80% !important; 
  }
@@ -64,7 +65,7 @@ img {
 body{
   min-height: 100vh;
   width: 100%;
-  background-image: url("/MP1/css/images/Bg_tattoo.jpg");
+  background-image: url("/css/Bg_tattoo.jpg");
 }
 footer{
   position: relative;
@@ -306,5 +307,4 @@ footer .bottom-details .bottom_text{
     .my-card {
         width: 500px
     }
-}
 }

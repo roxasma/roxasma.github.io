@@ -19,35 +19,46 @@
   </head>
 
   <body class="bs-gray-700">
-    <div class="container">
-      <nav class="navbar navbar-expand-sm">
-        <div class="container">
-          <!-- Links -->
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="FAQ.html">FAQs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="About.html">About Us</a>
-            </li>
-          </ul>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-3">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Tattoo It</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="FAQ.html">FAQs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About Us</a>
+                </li>
+              </ul>
+           
+            </div>
+          </div>
         </div>
       </nav>
+    </div>
 
-      
-
-      <button
+      <!-- <button
         class="logobtn"
         type="button"
         title="Consult now"
         data-bs-toggle="modal"
         data-bs-target="#myModal"
       >
-        <img src="/MP1/css/images/Logo.png" alt="logo" class="rounded-circle" id="LogoBtn" />
-      </button></div>
+        <img src="/css/Logo.png" alt="logo" class="rounded-circle" id="LogoBtn" />
+      </button></div> -->
 
          <!-- The Modal -->
          <div class="modal" id="myModal">
@@ -85,51 +96,59 @@
         </div>
 
 
-            <div class="container mt-5 text-white">
+            <div class="container mt-5 pt-5 text-white">
+          
               <h1>How Much Does It Cost?</h1>
               <p>This may vary depends on the artist popularity:</p>
+              <figure>
               <blockquote class="blockquote">
                 <p>Every shop charges differently. Therefore, there is no fixed price for a tattoo. However, you would have to pay a good amount of money if you want to get a high-quality tattoo. The tattoo price may vary, depending on the amount of work required and your vendor’s craftsmanship.
 
                   Settling with a cheap vendor can cost you in terms of design, quality, and safety. That You will probably want to have covered up later on.</p>
-                <footer class="blockquote-footer">From doingtattoo website</footer>
-              </blockquote>
+                </blockquote><figcaption class="blockquote-footer mt-3">From doingtattoo website</figcaption></figure>
+           
 
               <h1>Does It Hurt To Get A Tattoo?</h1>
               <p>Please be mindful that individually we have our own level of pain tolerance:</p>
-              <blockquote class="blockquote">
-                <p>This is the most common question asked by those intending to get a tattoo. This is because they have seen people poke a needle into someone’s skin. That creates a fear of pain in their minds. We won’t give you false hope. It does hurt a little, but it depends on your pain tolerance level.
-
-                  It also depends on the areas you are getting a tattoo, such as the inside of arms, ankles, or outer shoulders. Some people who have experienced what it is like to get a tattoo often describe it as a hot scratching feeling. Numbing creams are not recommended for use before the tattoo. They may cause allergic reactions to your skin.</p>
-                <footer class="blockquote-footer">From doingtattoo website</footer>
-              </blockquote>
+                <figure>
+                  <blockquote class="blockquote mt-3">
+                    <p>This is the most common question asked by those intending to get a tattoo. This is because they have seen people poke a needle into someone’s skin. That creates a fear of pain in their minds. We won’t give you false hope. It does hurt a little, but it depends on your pain tolerance level.
+                      
+                      It also depends on the areas you are getting a tattoo, such as the inside of arms, ankles, or outer shoulders. Some people who have experienced what it is like to get a tattoo often describe it as a hot scratching feeling. Numbing creams are not recommended for use before the tattoo. They may cause allergic reactions to your skin.</p>  </blockquote>
+                    <figcaption class="blockquote-footer mt-3">From doingtattoo website</figcaption>
+                </figure>
+             
+            
 
               <h1>Is It Sanitary To Have A Tattoo?</h1>
               <p>Hygienic and Clean.</p>
+              <figure>
               <blockquote class="blockquote">
                 <p>Tattooing is similar to a medical procedure. The needles used in the process puncture the skin and deposit the ink into dermis. Therefore they must be cleaned; otherwise, they can cause severe allergic reactions. Each shop must be checked with health agencies.
 
-                  When it comes to equipment, they are pre-packaged and pre-sterilized. All machines and clip cords are covered in plastic wraps. The artist also wears gloves and a mask before coming near a client. So it is a sanitary procedure.</p>
-                <footer class="blockquote-footer">From doingtattoo website</footer>
-              </blockquote>
+                  When it comes to equipment, they are pre-packaged and pre-sterilized. All machines and clip cords are covered in plastic wraps. The artist also wears gloves and a mask before coming near a client. So it is a sanitary procedure.</p>   </blockquote>
+                <figcaption class="blockquote-footer mt-3">From doingtattoo website</figcaption>
+            </figure>
 
               <h1>How Long Is The Tattooing Procedure?</h1>
               <p>minimum is less than an hour</p>
+              <figure>
               <blockquote class="blockquote">
                 <p>This depends on the design you want to get, the experience of the artist, and patience. Tattooing is a procedure involving patience. There should be no rush to get it done faster as results won’t be as good as you thought they should be.
 
-                  A piece of the size of your hand with an average complexity should not take more than two hours. But, a more complex and large design can take up to ten hours. A full arm can also take up to fifty hours. Thus, it depends on the design and expertise of the artist.</p>
-                <footer class="blockquote-footer">From doingtattoo website</footer>
-              </blockquote>
-
+                  A piece of the size of your hand with an average complexity should not take more than two hours. But, a more complex and large design can take up to ten hours. A full arm can also take up to fifty hours. Thus, it depends on the design and expertise of the artist.</p></blockquote>
+                <figcaption class="blockquote-footer mt-3">From doingtattoo website</figcaption>  </figure>
+              
+          
               <h1>How Long Does A Tattoo Take To Heal?</h1>
               <p>At this part after care is really important</p>
+              <figure>
               <blockquote class="blockquote">
                 <p>The tattoo healing process is dependent on several factors. It depends on your healing capability as well as seasonal changes. Many artists say that crucial time starts from getting a tattoo to up to 6 weeks. The healing process takes place during this period.
 
-                  Avoid doing anything harmful to your tattooed area during this period. Protect it from heat, sunlight, and avoid using harmful creams.</p>
-                <footer class="blockquote-footer">From doingtattoo website</footer>
-              </blockquote>
+                  Avoid doing anything harmful to your tattooed area during this period. Protect it from heat, sunlight, and avoid using harmful creams.</p></blockquote>
+                <figcaption class="blockquote-footer mt-3">From doingtattoo website</figcaption>
+              </figure>
             </div>
 
             <footer>
